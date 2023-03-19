@@ -3,7 +3,6 @@ opencv-python
 pandas
 numpy
 pymysql
-PyWin32pip
 fpdf
 matplotlib
 seaborn
