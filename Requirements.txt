@@ -1,0 +1,12 @@
+Flask
+opencv-python
+pandas
+numpy
+pymysql
+PyWin32
+fpdf
+matplotlib
+seaborn
+flask_sqlalchemy
+pytest
+requests

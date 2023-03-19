@@ -1,0 +1,5 @@
+    name  age           city
+0   John   25       New York
+1  Alice   32          Paris
+2    Bob   18         London
+3  Emily   42  San Francisco

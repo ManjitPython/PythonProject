@@ -1,0 +1,46 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--	<title>DOM Example</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--	<h1 id="heading">Welcome to my website</h1>-->
+<!--	<button onclick="changeText()">Change Text</button>-->
+<!--	<script>-->
+<!--		function changeText() {-->
+<!--			document.getElementById("heading").innerHTML = "Hello World!";-->
+<!--		}-->
+<!--	</script>-->
+<!--</body>-->
+<!--</html>-->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--	<title>DOM Example</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--	<div id="container"></div>-->
+<!--	<button onclick="addButton()">Add Button</button>-->
+<!--	<script>-->
+<!--		function addButton() {-->
+<!--			var button = document.createElement("button");-->
+<!--			button.innerHTML = "Click me!";-->
+<!--			document.getElementById("container").appendChild(button);-->
+<!--		}-->
+<!--	</script>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Example</title>
+</head>
+<body>
+	<button id="myButton">Click me!</button>
+	<script>
+		document.getElementById("myButton").addEventListener("click", function() {
+			alert("You clicked the button!");
+		});
+	</script>
+</body>
+</html>
